@@ -9,6 +9,9 @@ from library import greet
 def main():
     greet()
 
+    name = input('What is your name? ')
+
+    print(f'Nice to meet you {name}')
 
 if __name__ == '__main__':
     main()
